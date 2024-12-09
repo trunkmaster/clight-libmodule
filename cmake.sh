@@ -1,4 +1,4 @@
-git checkout 5.0.2
+git checkout 5.0.1-nextspace
 if [ -d .build ];then
     cd .build
     xargs rm < install_manifest.txt
