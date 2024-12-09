@@ -1,0 +1,9 @@
+-std=c99
+-fvisibility=hidden
+-O3
+-DNDEBUG
+-fPIC
+ -Dlibmodule_EXPORTS
+ -I.
+ -I./Lib
+ -I./Lib/public/module
