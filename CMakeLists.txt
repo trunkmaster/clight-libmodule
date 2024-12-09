@@ -110,10 +110,10 @@ install(TARGETS ${PROJECT_NAME}
     )
 
 install(FILES ${CMAKE_BINARY_DIR}/libmodule.pc
-    DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/pkgconfig)
+    DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig)
 
 install(FILES LICENSE
-    DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/licenses/${PROJECT_NAME})
+    DESTINATION ${CMAKE_INSTALL_LIBDIR}/licenses/${PROJECT_NAME})
 
 set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -Wtype-limits -Wstrict-overflow -fno-strict-aliasing -Wformat -Wformat-security")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99 -fvisibility=hidden")
